@@ -66,7 +66,6 @@ class LogInViewController: UIViewController {
     deinit {
         print("LogInViewController has been dealocated")
     }
-    
 }
 
 //MARK: - Alert Controller
