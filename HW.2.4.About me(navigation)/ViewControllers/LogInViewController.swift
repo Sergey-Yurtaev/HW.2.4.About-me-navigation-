@@ -63,6 +63,10 @@ class LogInViewController: UIViewController {
         passwordTextField.text = nil
     }
     
+    deinit {
+        print("LogInViewController has been dealocated")
+    }
+    
 }
 
 //MARK: - Alert Controller

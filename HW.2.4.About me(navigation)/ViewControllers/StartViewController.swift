@@ -37,6 +37,10 @@ class StartViewController: UIViewController {
         userNameLabel.text = "Welcome, \(userName.userName)"
         addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
     }
+    
+    deinit {
+        print("StartViewController has been dealocated")
+    }
 
 }
 

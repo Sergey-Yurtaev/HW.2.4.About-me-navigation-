@@ -21,4 +21,8 @@ class MyFriendViewController: UIViewController {
         userNameLabel.text = userNameTwo.userName
         title = userNameLabel.text
     }
+    
+    deinit {
+        print("MyFriendViewController has been dealocated")
+    }
 }
